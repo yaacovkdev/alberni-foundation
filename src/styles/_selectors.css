@@ -1,0 +1,50 @@
+/*This file has a collection of globally applied classes for responsive html elements*/
+
+@import url("./_breakpoints.css");
+@import url("./_variables.css");
+
+.title-font-size {
+    font-size: var(--title-font-size);
+    font-weight: 700;
+    @media (min-width: 768px) {
+        font-size: var(--tablet-title-font-size);
+    }
+}
+
+.header-font-size {
+    font-size: var(--header-font-size);
+    font-weight: 500;
+    @media (min-width: 768px) {
+        font-size: var(--tablet-header-font-size);
+    }
+}
+
+.subheader-font-size {
+    font-size: var(--subheader-font-size);
+    font-weight: 500;
+    @media (min-width: 768px) {
+        font-size: var(--tablet-subheader-font-size);
+    }
+}
+
+.normal-font-size {
+    font-size: var(--normal-font-size);
+    font-weight: 400;
+    @media (min-width: 768px) {
+        font-size: var(--tablet-normal-font-size);
+    }
+}
+
+.small-font-size {
+    font-size: var(--small-font-size);
+    @media (min-width: 768px) {
+        font-size: var(--tablet-small-font-size);
+    }
+}
+
+.smaller-font-size {
+    font-size: var(--smaller-font-size);
+    @media (min-width: 768px) {
+        font-size: var(--tablet-smaller-font-size);
+    }
+}

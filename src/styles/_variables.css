@@ -1,0 +1,25 @@
+:root {
+    /* Font Size Mobile*/
+    --title-font-size: 2rem;
+    --header-font-size: 1.5rem;
+    --subheader-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: 0.9rem;
+
+    /* Font Size Tablet*/
+    --tablet-title-font-size: 4rem;
+    --tablet-header-font-size: 2.5rem;
+    --tablet-subheader-font-size: 1.5rem;
+    --tablet-normal-font-size: 1rem;
+    --tablet-small-font-size: 0.9rem;
+    --tablet-smaller-font-size: 0.8rem;
+
+    /* Colors */
+    --background-color: #fcfcfc;
+    --foreground-color: #171717;
+    --text-color: #163954;
+
+    /* Dimensions */
+    --content-margins: 1rem;
+}
