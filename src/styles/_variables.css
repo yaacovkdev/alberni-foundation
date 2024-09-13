@@ -1,4 +1,8 @@
 :root {
+    /* Font */
+    --font-noto-serif: "Noto Serif", serif;
+    --font-sans-didact: "Geist Sans", sans-serif;
+
     /* Font Size Mobile*/
     --title-font-size: 2rem;
     --header-font-size: 1.5rem;
@@ -16,8 +20,12 @@
     --tablet-smaller-font-size: 0.8rem;
 
     /* Colors */
-    --background-color: #fcfcfc;
+    --background-color: #ffffff;
     --foreground-color: #171717;
+    --light-gray: #f6f5f5;
+    --pure-white: #ffffff;
+    --gray: #d9d9d9;
+
     --text-color: #163954;
 
     /* Dimensions */

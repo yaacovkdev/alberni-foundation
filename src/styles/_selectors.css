@@ -48,3 +48,7 @@
         font-size: var(--tablet-smaller-font-size);
     }
 }
+
+.sans-font {
+    font-family: var(--font-sans-didact);
+}

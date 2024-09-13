@@ -1,11 +1,5 @@
 @import url("../styles/_selectors.css");
 
-:root {
-  /* Font */
-  --font-noto-serif: "Noto Serif", serif;
-  --font-sans-didact: "Geist Sans", sans-serif;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
