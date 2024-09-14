@@ -1,4 +1,4 @@
-import Announcements from "@/data/announcements";
+import AnnouncementsData from "@/data/announcements-data";
 import Link from "next/link";
 
 import "./Foundation.css";
@@ -19,15 +19,15 @@ export default function Foundation() {
                 <h3 className="foundation__header subheader-font-size">Latest Announcements</h3>
 
                 <div className="announcements-bar-content announcements-bar-content--first">
-                    <h4 className="announcements-bar-content__title normal-font-size">{Announcements[0].title}</h4>
-                    <p className="announcements-bar-content__description small-font-size">{Announcements[0].description.split(" ").slice(0, 12).join(" ")}</p>
-                    <h5 className="announcements-bar-content__time smaller-font-size">{Announcements[0].time}</h5>
+                    <h4 className="announcements-bar-content__title normal-font-size">{AnnouncementsData[0].title}</h4>
+                    <p className="announcements-bar-content__description small-font-size">{AnnouncementsData[0].description.split(" ").slice(0, 12).join(" ")}</p>
+                    <h5 className="announcements-bar-content__time smaller-font-size">{AnnouncementsData[0].time}</h5>
                 </div>
 
                 <div className="announcements-bar-content">
-                    <h4 className="announcements-bar-content__title normal-font-size">{Announcements[0].title}</h4>
-                    <p className="announcements-bar-content__description small-font-size">{Announcements[0].description.split(" ").slice(0, 12).join(" ")}</p>
-                    <h5 className="announcements-bar-content__time smaller-font-size">{Announcements[0].time}</h5>
+                    <h4 className="announcements-bar-content__title normal-font-size">{AnnouncementsData[0].title}</h4>
+                    <p className="announcements-bar-content__description small-font-size">{AnnouncementsData[0].description.split(" ").slice(0, 12).join(" ")}</p>
+                    <h5 className="announcements-bar-content__time smaller-font-size">{AnnouncementsData[0].time}</h5>
                 </div>
 
                 <Link className="foundation__more-btn smaller-font-size" href="/updates">View more</Link>
