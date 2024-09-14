@@ -1,0 +1,39 @@
+.model-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  background-image: url(../../../images/placeholder-image-hero.jpg);
+
+  width: 100%;
+  height: 20rem;
+
+  @media (min-width: 768px) {
+    height: 45rem;
+  }
+}
+
+.model-hero__text {
+    margin: 1rem;
+
+    @media (min-width: 768px) {
+        margin: 4rem 2rem;
+    }
+}
+
+.model-hero__title,
+.model-hero__link {
+  width: fit-content;
+  margin: 1rem;
+
+  @media (min-width: 768px) {
+    margin: 2rem;
+  }
+}
+
+.model-hero__link {
+  background-color: var(--pure-white);
+
+  padding: 0.5rem;
+}

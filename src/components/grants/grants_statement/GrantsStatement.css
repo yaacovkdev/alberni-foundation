@@ -1,0 +1,12 @@
+.grants-statement {
+    background-color: var(--light-gray);
+    
+    padding: 2rem;
+
+    text-align: center;
+}
+
+.grants-statement__text {
+    margin: auto;
+    max-width: 40rem;
+}

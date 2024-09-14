@@ -56,3 +56,9 @@
 .sans-font {
     font-family: var(--font-sans-didact);
 }
+
+.hero-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}  

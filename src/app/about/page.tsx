@@ -6,12 +6,12 @@ import MissionStatement from "@/components/about/mission_statement/MissionStatem
 
 export default function About() {
   return (
-    <div className="about">
+    <article className="about">
       <AboutHeader />
       <MissionStatement />
       <AvailableGrants />
       <AboutTree />
       <AnnualReports />
-    </div>
+    </article>
   );
 }
