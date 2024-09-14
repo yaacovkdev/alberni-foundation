@@ -16,7 +16,7 @@ export default function Foundation() {
                     environment within the Alberni Valley.</p>
             </div>
             <div className="foundation__bar">
-                <h3 className="subheader-font-size">Latest Announcements</h3>
+                <h3 className="foundation__header subheader-font-size">Latest Announcements</h3>
 
                 <div className="announcements-bar-content announcements-bar-content--first">
                     <h4 className="announcements-bar-content__title normal-font-size">{Announcements[0].title}</h4>

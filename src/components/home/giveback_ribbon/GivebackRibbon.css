@@ -1,7 +1,12 @@
 .giveback-ribbon {
     background-color: var(--light-gray);
 
-    padding: 6rem 8rem 2rem 8rem;
+    padding: 2rem;
+
+    @media (min-width: 768px) {
+        padding: 6rem 8rem 2rem 8rem;
+    }
+
 }
 
 .giveback-ribbon__blocks {

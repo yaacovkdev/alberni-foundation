@@ -1,0 +1,20 @@
+.vital-signs {
+    margin: auto;
+    padding: 2rem;
+    max-width: 40rem;
+    text-align: center;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        padding: 4rem;
+    }
+}
+
+.vital-signs__text {
+    margin-bottom: 2rem;
+}
+
+.vital-signs__link {
+    background-color: var(--light-gray);
+    padding: 0.5rem;
+}
