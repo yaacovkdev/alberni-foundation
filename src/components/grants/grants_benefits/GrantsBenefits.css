@@ -1,0 +1,71 @@
+.grants-benefits {
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  max-width: 50rem;
+
+  @media (min-width: 768px) {
+    padding: 4rem;
+  }
+}
+
+/* Resize the Images */
+.grants-benefits__image {
+  width: 100%;
+  height: 25rem;
+
+  object-fit: cover;
+}
+
+.grants-benefits__part {
+  margin-bottom: 2rem;
+}
+
+.grants-benefits__context {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+.grants-benefits__part--first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+}
+
+.grants-benefits__leaf {
+  background-color: var(--gray);
+
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grants-benefits__part--first,
+  .grants-benefits__part--fourth {
+    width: 48%;
+  }
+
+  .grants-benefits__part--second,
+  .grants-benefits__part--third {
+    width: 52%;
+  }
+
+  /* prevents from creating extra space for the last leaf image */
+  .grants-benefits__part--third,
+  .grants-benefits__part--fourth {
+    margin-bottom: 0;
+  }
+
+  .grants-benefits__leaf {
+    border-radius: 0 5rem 0 5rem;
+  }
+
+  .grants-benefits__image {
+    border-radius: 10rem 0 10rem 0;
+  }
+}

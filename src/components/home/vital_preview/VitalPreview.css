@@ -1,4 +1,4 @@
-.vital-signs {
+.vital-preview {
     margin: auto;
     padding: 2rem;
     max-width: 40rem;
@@ -10,11 +10,11 @@
     }
 }
 
-.vital-signs__text {
+.vital-preview__text {
     margin-bottom: 2rem;
 }
 
-.vital-signs__link {
+.vital-preview__link {
     background-color: var(--light-gray);
     padding: 0.5rem;
 }

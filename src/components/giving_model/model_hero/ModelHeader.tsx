@@ -1,7 +1,7 @@
 import Link from "next/link";
-import "./ModelHero.css";
+import "./ModelHeader.css";
 
-export default function ModelHero() {
+export default function ModelHeader() {
   return (
     <div className="model-hero hero-image">
       <div className="model-hero__text">
