@@ -3,9 +3,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  gap: 10rem;
 
   background-image: url(../../../images/placeholder-image-hero.jpg);
 
+  margin-bottom: 6rem;
   width: 100%;
   height: 20rem;
 
@@ -14,22 +16,16 @@
   }
 }
 
-.model-hero__text {
-    margin: 1rem;
-
-    @media (min-width: 768px) {
-        margin: 4rem 2rem;
-    }
-}
-
-.model-hero__title,
-.model-hero__link {
-  width: fit-content;
-  margin: 1rem;
+.model-hero__context {
+  padding: 2rem;
 
   @media (min-width: 768px) {
-    margin: 2rem;
+    padding: 4rem;
   }
+}
+
+.model-hero__title {
+  margin-bottom: 1rem;
 }
 
 .model-hero__link {
