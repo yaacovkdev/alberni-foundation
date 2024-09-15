@@ -35,6 +35,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  color: inherit;
+
+  font-family: var(--font-noto-serif);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
