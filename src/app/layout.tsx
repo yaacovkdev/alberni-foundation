@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import HeaderComponent from "@/components/header/header_component/HeaderComponent";
 
 const notoSerif = localFont({
   src: [
@@ -47,6 +48,9 @@ export default function RootLayout({
   return (
     <html lang="en">
         <body className={`${notoSerif.variable} ${sansDidact.variable}`}>
+
+            <HeaderComponent />
+
             {children}
         </body>
     </html>

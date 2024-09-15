@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: var(--pure-white);
+
+  padding: 2rem;
+  min-height: 7rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
