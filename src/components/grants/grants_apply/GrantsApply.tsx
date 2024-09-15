@@ -52,8 +52,8 @@ export default function GrantsApply() {
           <CategoryFilter />
 
           {GrantsData.filter((data) => data.foundation === true).map(
-            (grant) => (
-              <div className="grant-tab">
+            (grant, i) => (
+              <div key={i} className="grant-tab">
                 <div className="grant-tab__header">
                   <h4 className="grant-tab__category normal-font-size">
                     {grant.category}
@@ -77,14 +77,14 @@ export default function GrantsApply() {
           <CategoryFilter />
 
           {GrantsData.filter((data) => data.foundation !== true).map(
-            (grant) => (
-              <div className="grant-tab grant-tab--other">
+            (grant, i) => (
+              <div key={i} className="grant-tab grant-tab--other">
                 <div className="grant-tab__header">
                   <h4 className="grant-tab__category normal-font-size">
                     {grant.category}
                   </h4>
                   <button className="grant-tab__org-link">
-                    Grant Provider Organization
+                    Grant Provider Organization{" "}
                     <FontAwesomeIcon
                       className="icon-btn"
                       icon={faArrowUpRightFromSquare}
