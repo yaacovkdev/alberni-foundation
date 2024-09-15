@@ -39,6 +39,9 @@
 }
 
 .model-reasons__leaf {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
 
   background-color: var(--light-gray);
@@ -121,7 +124,7 @@
   gap: 1rem;
   
   margin: auto;
-  padding: 5rem;
+  padding: 5rem 2rem;
   max-width: 60rem;
   height: fit-content;
 
@@ -138,6 +141,7 @@
 
 .donations-list__options {
   flex: 4;
+  width: 100%;
 }
 
 .donations-list__link {

@@ -1,4 +1,5 @@
 .header-navigation {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,4 +16,15 @@
   background-color: var(--light-gray);
 
   padding: 0.5rem;
+}
+
+.grants-down-icon {
+  margin: 0 0.25rem;
+  padding-bottom: 0.2rem;
+  height: 1rem;
+}
+
+.header-navigation__grants-menu {
+  position: absolute;
+  display: none;
 }

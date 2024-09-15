@@ -10,7 +10,7 @@ import "./GrantsApply.css";
 export default function GrantsApply() {
   return (
     <article className="grants-apply">
-      <section className="grants-apply__application">
+      <section id="grants-apply" className="grants-apply__application">
         <h2 className="grants-apply__header header-font-size">Apply</h2>
 
         <div className="grants-apply__info">
@@ -46,8 +46,8 @@ export default function GrantsApply() {
         </div>
       </section>
 
-      <section className="grants-apply__lists">
-        <div className="grants-apply__list-item">
+      <div className="grants-apply__lists">
+        <section id="grants-foundation" className="grants-apply__list-item">
           <h2 className="header-font-size">Foundation Grants</h2>
           <CategoryFilter />
 
@@ -70,9 +70,9 @@ export default function GrantsApply() {
               </div>
             )
           )}
-        </div>
+        </section>
 
-        <div className="grants-apply__list-item">
+        <section id="grants-other" className="grants-apply__list-item">
           <h2 className="header-font-size">Other Grants</h2>
           <CategoryFilter />
 
@@ -99,8 +99,8 @@ export default function GrantsApply() {
               </div>
             )
           )}
-        </div>
-      </section>
+        </section>
+      </div>
     </article>
   );
 }
