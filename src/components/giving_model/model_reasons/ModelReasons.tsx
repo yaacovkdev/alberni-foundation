@@ -56,7 +56,7 @@ export default function ModelReasons() {
         </div>
       </article>
 
-      <section className="donations">
+      <section id="donations" className="donations">
         <div className="donations-top">
           <div className="donations-top__header">
             <h2 className="donations-top__title header-font-size">
