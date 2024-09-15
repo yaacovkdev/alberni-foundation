@@ -1,0 +1,12 @@
+.mission-statement {
+    background-color: var(--light-gray);
+    
+    padding: 2rem;
+
+    text-align: center;
+}
+
+.mission-statement__text {
+    margin: auto;
+    max-width: 40rem;
+}

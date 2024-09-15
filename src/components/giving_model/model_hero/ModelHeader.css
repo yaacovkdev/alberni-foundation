@@ -1,0 +1,35 @@
+.model-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10rem;
+
+  background-image: url(../../../images/placeholder-image-hero.jpg);
+
+  margin-bottom: 6rem;
+  width: 100%;
+  height: 20rem;
+
+  @media (min-width: 768px) {
+    height: 45rem;
+  }
+}
+
+.model-hero__context {
+  padding: 2rem;
+
+  @media (min-width: 768px) {
+    padding: 4rem;
+  }
+}
+
+.model-hero__title {
+  margin-bottom: 1rem;
+}
+
+.model-hero__link {
+  background-color: var(--pure-white);
+
+  padding: 0.5rem;
+}

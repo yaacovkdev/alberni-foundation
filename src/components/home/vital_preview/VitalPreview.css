@@ -1,0 +1,20 @@
+.vital-preview {
+    margin: auto;
+    padding: 2rem;
+    max-width: 40rem;
+    text-align: center;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        padding: 4rem;
+    }
+}
+
+.vital-preview__text {
+    margin-bottom: 2rem;
+}
+
+.vital-preview__link {
+    background-color: var(--light-gray);
+    padding: 0.5rem;
+}

@@ -1,0 +1,155 @@
+.grants-apply {
+  padding: 2rem;
+
+  @media (min-width: 768px) {
+    padding: 4rem 8rem;
+  }
+}
+
+.grants-apply__application {
+  margin-bottom: 6rem;
+}
+
+.grants-apply__header {
+  margin-bottom: 2rem;
+}
+
+.grants-apply__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.grants-apply__guidelines {
+  max-width: 13rem;
+}
+
+.grants-apply__subheader {
+  margin-bottom: 0;
+}
+
+.grants-apply__subheader--download {
+  margin-bottom: 1rem;
+}
+
+.dwnld-icon {
+  width: 0.8rem;
+}
+
+.grants-apply__link {
+  display: block;
+
+  background-color: var(--light-gray);
+
+  padding: 0.5rem;
+  width: fit-content;
+}
+
+.grants-apply__lists {
+  margin-bottom: 4rem;
+}
+
+.grants-apply__list-item {
+  margin-bottom: 4rem;
+}
+
+.grant-tab {
+  padding: 1rem 0;
+  
+  border-bottom: 2px solid black;
+}
+
+.grant-tab--other {
+  border-bottom: 1px solid black;
+}
+
+.grant-tab__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+.grant-tab__category {
+  background-color: var(--light-gray);
+
+  padding: 0.5rem;
+}
+
+.grant-tab__next-btn {
+  background-color: var(--gray);
+
+  width: 2.5rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.icon-btn {
+  width: 1rem;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.grant-tab__org-link {
+  background-color: var(--gray);
+
+  border: none;
+  
+  padding: 0.5rem;
+
+}
+
+.grant-tab__org-link .icon-btn {
+  margin-left: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+
+
+/* Filter Component CSS */
+.filter-category {
+  margin-bottom: 2rem;
+}
+
+.filter-category__title {
+  margin-bottom: 1rem;
+}
+
+.filter-category__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.filter-category__btn {
+  background-color: var(--light-gray);
+  border: none;
+  padding: 0.5rem;
+}
+
+.filter-category__btn:hover {
+  background-color: var(--gray);
+}
+
+.filter-category__btn:active {
+  background-color: var(--pure-white);
+}
+

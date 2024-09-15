@@ -1,0 +1,43 @@
+.annual-grants {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+.annual-grants__image {
+    width: 100%;
+    height:auto;
+
+    /* Make sure the image does not appear to be blurry in wide screens */
+    max-width: calc(580px * 1.5);
+    text-align: center;
+
+    @media (min-width: 768px) {
+        width: 50%;
+        height: fit-content;
+    }
+}
+
+.annual-grants__text {
+    padding: 2rem;
+
+    @media (min-width: 768px) {
+        width: 50%;
+
+        padding: 2rem 4rem;
+    }
+}
+
+.annual-grants__paragraph {
+    margin-bottom: 2rem;
+}
+
+.annual-grants__link {
+    background-color: var(--light-gray);
+    padding: 0.5rem;
+}

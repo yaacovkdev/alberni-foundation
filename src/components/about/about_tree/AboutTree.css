@@ -1,0 +1,42 @@
+.about-tree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 6rem;
+  padding: 0 2rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+
+.about-tree__leaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--gray);
+
+  margin-bottom: 2rem;
+  padding: 2rem;
+  max-width: 18rem;
+  height: 18rem;
+
+  @media (min-width: 768px) {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-tree__branch .about-tree__leaf {
+    border-radius: 0 5rem 0 5rem;
+  }
+
+  .about-tree__branch--right .about-tree__leaf {
+    border-radius: 5rem 0 5rem 0;
+  }
+}
