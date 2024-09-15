@@ -26,13 +26,29 @@
   padding: 0.5rem;
 }
 
+.grants-recipients__ribbon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .grants-recipients__ribbon {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
   background-color: var(--gray);
-  background-image: url("../../../images/placeholder-image-recipients.jpg");
-  background-position: center;
-  background-size: 20rem;
   
   height: 10rem;
-
-
+  width: 4800px;
 }
+
+.grants-recipients__image {
+  width: 8rem;
+  height: 6rem;
+
+  border-radius: 2rem 0 2rem 0;
+}
+
