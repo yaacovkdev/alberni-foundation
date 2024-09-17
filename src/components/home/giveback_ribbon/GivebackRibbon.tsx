@@ -8,19 +8,19 @@ export default function GivebackRibbon() {
                 <div className="dollarsign-block">
                     <div className="dollarsign-block__content">
                         <h2 className="header-font-size">$27K</h2>
-                        <p className="sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="normal-sans-font-size sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div className="dollarsign-block dollarsign-block--middle">
                     <div className="dollarsign-block__content">
                         <h2 className="header-font-size">$27K</h2>
-                        <p className="sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="normal-sans-font-size sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div className="dollarsign-block">
                     <div className="dollarsign-block__content">
                         <h2 className="header-font-size">$27K</h2>
-                        <p className="sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="normal-sans-font-size sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
             </div>

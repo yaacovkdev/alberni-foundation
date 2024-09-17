@@ -19,7 +19,7 @@ export default function AvailableGrants() {
         <h2 className="header-font-size">
           Community Foundations - a Unique Concept
         </h2>
-        <p className="avaliable-grants__paragraph normal-font-size sans-font">
+        <p className="avaliable-grants__paragraph normal-sans-font-size sans-font">
           A Community Foundation is a pool of charitable donations. This pool is
           invested and the interest earned is distributed to local charitable
           organizations. The principal is not touched, so the donations continue

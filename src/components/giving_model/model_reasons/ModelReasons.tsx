@@ -10,7 +10,7 @@ export default function ModelReasons() {
       <article className="model-reasons">
         <div className="model-reasons__header">
           <h2 className="header-font-size">So Many Reasons to Give</h2>
-          <p className="normal-font-size sans-font">
+          <p className="normal-sans-font-size sans-font">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
             mi. Aliquam in hendrerit urna.
           </p>
@@ -19,13 +19,13 @@ export default function ModelReasons() {
         <div className="model-reasons__tree">
           <div className="model-reasons__branch model-reasons__branch--left">
             <div className="model-reasons__leaf model-reasons__leaf--first">
-              <p className="normal-font-size sans-font">
+              <p className="normal-sans-font-size sans-font">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
                 massa mi.
               </p>
             </div>
             <div className="model-reasons__leaf">
-              <p className="normal-font-size sans-font">
+              <p className="normal-sans-font-size sans-font">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
                 massa mi.
               </p>
@@ -35,19 +35,19 @@ export default function ModelReasons() {
 
           <div className="model-reasons__branch model-reasons__branch--right">
             <div className="model-reasons__leaf">
-              <p className="normal-font-size sans-font">
+              <p className="normal-sans-font-size sans-font">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
                 massa mi. Aliquam in hendrerit urna.
               </p>
             </div>
             <div className="model-reasons__leaf">
-              <p className="normal-font-size sans-font">
+              <p className="normal-sans-font-size sans-font">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
                 massa mi. Aliquam in hendrerit urna.
               </p>
             </div>
             <div className="model-reasons__leaf">
-              <p className="normal-font-size sans-font">
+              <p className="normal-sans-font-size sans-font">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
                 massa mi. Aliquam in hendrerit urna.
               </p>
@@ -62,7 +62,7 @@ export default function ModelReasons() {
             <h2 className="donations-top__title header-font-size">
               Ways to Give
             </h2>
-            <p className="normal-font-size sans-font">
+            <p className="normal-sans-font-size sans-font">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
               massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
               fringilla, mattis ligula consectetur, ultrices mauris. Maecenas

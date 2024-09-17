@@ -4,7 +4,7 @@ export default function GrantsStatement() {
   return (
     <section className="grants-statement">
       <div className="grants-statement__text">
-        <p className="normal-font-size sans-font">
+        <p className="normal-sans-font-size sans-font">
           The Alberni Valley Community Foundation currently makes grants from
           the Community Fund once a year. To apply for a grant, registered
           non-profits are invited to submit an expression of interest by

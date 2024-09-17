@@ -33,11 +33,6 @@
     margin: 0;
 }
 
-.foundation__description {
-    font-family: var(--font-sans-didact);
-    font-weight: 400;
-}
-
 .announcements-bar-content {
     padding: 1rem 0;
 }
@@ -51,6 +46,7 @@
     border-bottom: 2px solid black;
 }
 
+/* Need to reinstate font family because parent selector set all children to be of sans font */
 .announcements-bar-content__title {
     font-family: var(--font-noto-serif);
     font-weight: 500;

@@ -28,7 +28,7 @@ export default function GrantsApply() {
             <h3 className="grants-apply__subheader subheader-font-size">
               Attach with your application
             </h3>
-            <p className="grants-apply__list normal-font-size sans-font">
+            <p className="grants-apply__list normal-sans-font-size sans-font">
               1. Most recent Annual Report
               <br />
               2. Financial statement
@@ -38,7 +38,7 @@ export default function GrantsApply() {
             <h3 className="grants-apply__subheader subheader-font-size">
               Submit by February 28
             </h3>
-            <p className="grants-apply__list normal-font-size sans-font">
+            <p className="grants-apply__list normal-sans-font-size sans-font">
               The Alberni Valley Community Foundation, c/o Echo Centre 4255
               Wallace St, Port Alberni V9Y 3Y8
             </p>
@@ -64,7 +64,7 @@ export default function GrantsApply() {
                 </div>
 
                 <h3 className="subheader-font-size">{grant.title}</h3>
-                <p className="normal-font-size">
+                <p className="normal-sans-font-size sans-font">
                   {grant.description.slice(0, 300)}...
                 </p>
               </div>
@@ -93,7 +93,7 @@ export default function GrantsApply() {
                 </div>
 
                 <h3 className="subheader-font-size">{grant.title}</h3>
-                <p className="normal-font-size">
+                <p className="normal-sans-font-size sans-font">
                   {grant.description.slice(0, 300)}...
                 </p>
               </div>
