@@ -20,18 +20,9 @@ const notoSerif = localFont({
 });
 
 const sansDidact = localFont({
-  src: [
-    {
-      path: "../fonts/DidactGothic-Regular.ttf",
-      weight: "400",
-      style: "normal"
-    },
-    {
-      path: "../fonts/DidactGothic.ttf",
-      weight: "500",
-      style: "normal"
-    }
-  ],
+  src: "../fonts/DidactGothic-Regular.ttf",
+  weight: "400",
+  style: "normal",
   variable: "--font-sans-didact",
 })
 
