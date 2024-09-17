@@ -7,14 +7,14 @@ export default function AboutTree() {
         <h2 className="header-font-size">What We Do</h2>
 
         <div className="about-tree__leaf">
-          <p>
+          <p className="about-tree__text">
             Invests in the future of our quality of life community by creating
             and managing funds: all gifts from donors go into permanent
             endowments
           </p>
         </div>
         <div className="about-tree__leaf">
-          <p>
+          <p className="about-tree__text">
             Addresses community needs and opportunities; encourages caring
             citizens to provide leadership
           </p>
@@ -23,13 +23,13 @@ export default function AboutTree() {
 
       <div className="about-tree__branch about-tree__branch--right">
         <div className="about-tree__leaf">
-          <p>
+          <p className="about-tree__text">
             Provides grants to local charities to improve Invests in the future
             of our quality of life
           </p>
         </div>
         <div className="about-tree__leaf">
-          <p>
+          <p className="about-tree__text">
             Ensures the integrity of funds and that the wishes of donors are
             respected
           </p>

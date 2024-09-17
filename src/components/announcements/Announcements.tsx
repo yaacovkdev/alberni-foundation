@@ -34,11 +34,11 @@ export default function Announcements() {
               <h2 className="subheader-font-size">
                 Latest {announcement.title}
               </h2>
-              <p className="normal-font-size sans-font">
+              <p className="normal-sans-font-size sans-font">
                 {announcement.description.slice(0, 155)}...
               </p>
               <div className="announcement-article__footer">
-                <h4 className="small-font-size sans-font">
+                <h4 className="small-sans-font-size sans-font">
                   {announcement.time}
                 </h4>
 
@@ -63,8 +63,8 @@ export default function Announcements() {
             <button
               className={
                 i === 0
-                  ? "page-btn page-btn--selected sans-font"
-                  : "page-btn sans-font"
+                  ? "page-btn page-btn--selected normal-sans-font-size sans-font"
+                  : "page-btn normal-sans-font-size sans-font"
               }
               key={i}
             >

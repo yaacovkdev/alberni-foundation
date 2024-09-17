@@ -11,7 +11,7 @@ export default function GrantsBenefits() {
 
           <div className="grants-benefits__leaf">
             <h3 className="subheader-font-size">The Community</h3>
-            <p className="normal-font-size sans-font">
+            <p className="normal-sans-font-size sans-font">
               Organizations apply for grants to help fund local projects. The
               Foundation has established broad and flexible criteria, enabling
               it to support innovative activities.
@@ -45,7 +45,7 @@ export default function GrantsBenefits() {
         <div className="grants-benefits__part grants-benefits__part--fourth">
           <div className="grants-benefits__leaf">
             <h3 className="subheader-font-size">The Donors</h3>
-            <p className="normal-font-size sans-font">
+            <p className="normal-sans-font-size sans-font">
               People want to be sure their charitable dollars are used wisely,
               where it can do the most good. Donors may choose to support a
               favourite cause or they may ask the Foundation to distribute the

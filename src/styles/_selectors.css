@@ -53,6 +53,27 @@
     }
 }
 
+.normal-sans-font-size {
+    font-size: var(--normal-sans-font-size);
+    @media (min-width: 768px) {
+        font-size: var(--tablet-sans-normal-font-size);
+    }
+}
+
+.small-sans-font-size {
+    font-size: var(--small-font-size);
+    @media (min-width: 768px) {
+        font-size: var(--tablet-small-sans-font-size);
+    }
+}
+
+.smaller-sans-font-size {
+    font-size: var(--smaller-font-size);
+    @media (min-width: 768px) {
+        font-size: var(--tablet-smaller-sans-font-size);
+    }
+}
+
 .sans-font {
     font-family: var(--font-sans-didact);
 }
@@ -61,4 +82,4 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}  
+}

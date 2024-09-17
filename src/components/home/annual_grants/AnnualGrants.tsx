@@ -10,7 +10,7 @@ export default function AnnualGrants() {
             <Image className="annual-grants__image" src={grantImg} width="580" height="435" alt="grants image" />
             <div className="annual-grants__text">
                 <h2 className="header-font-size">Annual Grants</h2>
-                <p className="annual-grants__paragraph normal-font-size sans-font">
+                <p className="annual-grants__paragraph normal-sans-font-size sans-font">
                     The Alberni Valley Community Foundation
                     currently makes grants from the
                     Community Fund once a year. To apply

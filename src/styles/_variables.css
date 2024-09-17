@@ -19,6 +19,13 @@
     --tablet-small-font-size: 0.9rem;
     --tablet-smaller-font-size: 0.8rem;
 
+    /* Font Size to adjust for Noto serif font*/
+    --normal-sans-font-size: 1.05rem;
+
+    --tablet-sans-normal-font-size: 1.15rem;
+    --tablet-small-sans-font-size: 1rem;
+    --tablet-smaller-sans-font-size: 0.9rem;
+
     /* Colors */
     --background-color: #ffffff;
     --foreground-color: #171717;

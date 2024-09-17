@@ -21,7 +21,7 @@
 }
 
 .announcement-article__text {
-    max-width: 25rem;
+    max-width: 28rem;
 }
 
 .announcement-article__image {
@@ -34,7 +34,7 @@
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .announcement-article__button {

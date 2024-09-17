@@ -23,12 +23,17 @@
 
   margin-bottom: 2rem;
   padding: 2rem;
-  max-width: 18rem;
-  height: 18rem;
+  max-width: 22rem;
+  height: 20rem;
 
   @media (min-width: 768px) {
     margin-bottom: 2rem;
   }
+}
+
+.about-tree__text {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
