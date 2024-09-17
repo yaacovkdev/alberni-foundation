@@ -14,7 +14,7 @@
     height:auto;
 
     /* Make sure the image does not appear to be blurry in wide screens */
-    max-width: calc(580px * 1.5);
+    max-width: calc(580px * 1.25);
     text-align: center;
 
     @media (min-width: 768px) {
