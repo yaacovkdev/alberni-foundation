@@ -86,12 +86,20 @@
   padding: 0.5rem;
 }
 
-.grant-tab__next-btn {
+.grant-tab__next-btn, .grant-tab__org-link {
   background-color: var(--gray);
 
-  width: 2.5rem;
   padding: 0.5rem;
+
   border: none;
+}
+
+.grant-tab__next-btn:active, .grant-tab__org-link:active {
+  background-color: var(--pure-white);
+}
+
+.grant-tab__next-btn {
+  width: 2.5rem;
 }
 
 .icon-btn {
@@ -99,15 +107,6 @@
   height: auto;
   text-align: center;
   vertical-align: middle;
-}
-
-.grant-tab__org-link {
-  background-color: var(--gray);
-
-  border: none;
-  
-  padding: 0.5rem;
-
 }
 
 .grant-tab__org-link .icon-btn {
