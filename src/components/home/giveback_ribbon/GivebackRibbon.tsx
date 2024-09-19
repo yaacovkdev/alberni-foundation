@@ -26,7 +26,7 @@ export default function GivebackRibbon() {
             </div>
             <div className="giveback-ribbon__footer">
                 <p>Want to give back to the community?</p>
-                <Link className="giveback-ribbon__support-btn" href="/donations">Support Us</Link>
+                <Link className="giveback-ribbon__support-btn" href="/giving#donations">Support Us</Link>
             </div>
 
 

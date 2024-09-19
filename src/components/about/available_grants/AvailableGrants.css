@@ -13,7 +13,9 @@
 
 .avaliable-grants__image {
   width: 100%;
-  height: auto;
+  height: 30rem;
+
+  object-fit: cover;
 
   /* Adjusted value for having the image cover half of the component
   and not appear too blurry on width increase */
