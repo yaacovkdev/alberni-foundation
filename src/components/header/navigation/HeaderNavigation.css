@@ -13,9 +13,15 @@
 }
 
 .header-navigation__link--special {
+  display: grid;
+  align-items: center;
+  
+  text-align: center;
+
   background-color: var(--light-gray);
 
-  padding: 0.5rem;
+  width: 100px;
+  height: 42px;
 }
 
 .grants-down-icon {

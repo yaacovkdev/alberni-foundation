@@ -6,9 +6,9 @@
     background-image: url(../../../images/placeholder-image-hero.jpg);
 
     @media (min-width: 768px) {
-        height: 45rem;
+        height: 892px;
 
-        border-radius: 20rem 0 20rem 0;
+        border-radius: 400px 0 400px 0;
     }
 }
 
@@ -17,11 +17,12 @@
     bottom: 0;
 
     width: 15rem;
-    padding: 1rem;
+    margin: 1rem;
 
     @media (min-width: 768px) {
-        width: 30rem;
-        padding: 3rem;
+        width: 480px;
+
+        margin: 72px;
     }
 
     line-height: 1.25em;

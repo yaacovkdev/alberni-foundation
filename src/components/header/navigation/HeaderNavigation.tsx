@@ -29,10 +29,10 @@ export default function HeaderNavigation() {
         About
       </Link>
       <Link
-        className="header-navigation__link header-navigation__link--special"
+        className="header-navigation__link header-navigation__link--special normal-font-size"
         href="/giving#donations"
       >
-        Donations
+        Donate
       </Link>
 
       <div className="header-navigation__grants-menu">dsads</div>
