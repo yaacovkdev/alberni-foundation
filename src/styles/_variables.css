@@ -14,18 +14,18 @@
     /* Font Size Tablet*/
     --tablet-title-font-size: 82px;
     --tablet-header-font-size: 2.5rem;
-    --tablet-subheader-font-size: 1.5rem;
+    --tablet-subheader-font-size: 32px;
     --tablet-normal-font-size: 20px;
     --tablet-small-font-size: 0.9rem;
-    --tablet-smaller-font-size: 0.8rem;
+    --tablet-smaller-font-size: 14px;
 
     /* Font Size to adjust for Didact Gothic Regular font*/
     /* --normal-sans-font-size: 1.05rem; */
     --normal-sans-font-size: 20px;
 
-    --tablet-sans-normal-font-size: 1.15rem;
-    --tablet-small-sans-font-size: 1rem;
-    --tablet-smaller-sans-font-size: 0.9rem;
+    --tablet-sans-normal-font-size: 20px;
+    --tablet-small-sans-font-size: 18px;
+    --tablet-smaller-sans-font-size: 16px;
 
     /* Colors */
     --background-color: #ffffff;

@@ -3,8 +3,8 @@ import "./HeaderLogo.css";
 
 export default function HeaderLogo() {
   return (
-    <Link href="/">
-      <div className="header-logo" />
+    <Link href="/" className="header-link">
+      <div className="header-link__logo" />
     </Link>
   );
 }

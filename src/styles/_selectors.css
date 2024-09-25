@@ -14,7 +14,7 @@
 .header-font-size {
     font-size: var(--header-font-size);
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
 
     @media (min-width: 768px) {
         font-size: var(--tablet-header-font-size);
@@ -24,7 +24,6 @@
 .subheader-font-size {
     font-size: var(--subheader-font-size);
     font-weight: 500;
-    margin-bottom: 1rem;
 
     @media (min-width: 768px) {
         font-size: var(--tablet-subheader-font-size);

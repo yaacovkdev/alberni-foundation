@@ -21,13 +21,13 @@ export default function Foundation() {
                 <div className="announcements-bar-content announcements-bar-content--first">
                     <h4 className="announcements-bar-content__title normal-font-size">{AnnouncementsData[0].title}</h4>
                     <p className="announcements-bar-content__description small-sans-font-size">{AnnouncementsData[0].description.split(" ").slice(0, 12).join(" ")}</p>
-                    <h5 className="announcements-bar-content__time smaller-font-size">{AnnouncementsData[0].time}</h5>
+                    <h5 className="announcements-bar-content__time smaller-sans-font-size">{AnnouncementsData[0].time}</h5>
                 </div>
 
                 <div className="announcements-bar-content">
                     <h4 className="announcements-bar-content__title normal-font-size">{AnnouncementsData[0].title}</h4>
                     <p className="announcements-bar-content__description small-sans-font-size">{AnnouncementsData[0].description.split(" ").slice(0, 12).join(" ")}</p>
-                    <h5 className="announcements-bar-content__time smaller-font-size">{AnnouncementsData[0].time}</h5>
+                    <h5 className="announcements-bar-content__time smaller-sans-font-size">{AnnouncementsData[0].time}</h5>
                 </div>
 
                 <Link className="foundation__more-btn smaller-font-size" href="/updates">View more</Link>
