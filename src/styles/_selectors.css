@@ -6,6 +6,10 @@
 .title-font-size {
     font-size: var(--title-font-size);
     font-weight: 700;
+
+    /* Closely matches the pdf font hero title */
+    letter-spacing: -1px;
+
     @media (min-width: 768px) {
         font-size: var(--tablet-title-font-size);
     }
@@ -14,7 +18,9 @@
 .header-font-size {
     font-size: var(--header-font-size);
     font-weight: 500;
-    margin-bottom: 20px;
+    letter-spacing: -1px;
+
+    margin-bottom: 19px;
 
     @media (min-width: 768px) {
         font-size: var(--tablet-header-font-size);
@@ -54,6 +60,8 @@
 
 .normal-sans-font-size {
     font-size: var(--normal-sans-font-size);
+    line-height: 1.9rem;
+
     @media (min-width: 768px) {
         font-size: var(--tablet-sans-normal-font-size);
     }

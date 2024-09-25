@@ -21,7 +21,7 @@
 
     @media (min-width: 768px) {
         width: 480px;
-        margin: 72px;
+        margin: 62px 71px;
     }
 
     line-height: 1.25em;

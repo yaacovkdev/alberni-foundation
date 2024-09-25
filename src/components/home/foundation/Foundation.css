@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 2rem;
 
     padding: 2rem;
@@ -9,39 +10,57 @@
     @media (min-width: 768px) {
         flex-direction: row;
 
-        padding: 102px 173px;
+        padding: 104px 173px 99px 173px;
     }
 }
 
 .foundation__text {
     @media (min-width: 768px) {
-        width: 480px;
+        width: 555px;
+    }
+}
+
+.foundation__description {
+    @media (min-width: 768px) {
+        width: 455px;
     }
 }
 
 .foundation__bar {
     @media (min-width: 768px) {
+        width: 455px;
+    }
+
+    @media (min-width: 1280px) {
         width: 360px;
     }
 }
 
-
 .foundation__header {
-    margin-bottom: 49px;
+    margin-bottom: 46px;
 }
 
 .announcements-bar-content {
-    padding: 15px 0;
+    padding: 17px 0;
 }
 
 .announcements-bar-content--first {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 
     padding-top: 0;
 }
 
+.announcements-bar-content--last {
+    padding-bottom: 29px;
+}
+
 .announcements-bar-content * {
     font-family: var(--font-sans-didact);
+}
+
+.announcements-bar-content__description {
+    height: 37px;
+    line-height: 1.3rem;
 }
 
 /* Need to reinstate font family because parent selector set all children to be of sans font */
@@ -51,7 +70,7 @@
 }
 
 .announcements-bar-content__time {
-    margin-top: 14px;
+    margin-top: 23px;
 }
 
 .foundation__more-btn {
