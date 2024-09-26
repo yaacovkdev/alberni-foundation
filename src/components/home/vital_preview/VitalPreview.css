@@ -3,11 +3,13 @@
     padding: 2rem;
 
     @media (min-width: 768px) {
-        margin: 96px auto 100px auto;
-        padding: 0;
         width: 625px;
-
         text-align: center;
+    }
+
+    @media (min-width: 1280px) {
+        padding: 0;
+        margin: 96px auto 100px auto;
     }
 }
 
