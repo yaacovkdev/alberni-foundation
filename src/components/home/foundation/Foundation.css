@@ -5,7 +5,9 @@
     flex-wrap: wrap;
     gap: 2rem;
 
+    margin: auto;
     padding: 2rem;
+    max-width: 1440px;
 
     @media (min-width: 768px) {
         flex-direction: row;
@@ -20,7 +22,7 @@
 
 @media (min-width: 768px) {
     .foundation-description, .foundation__bar, .foundation__text{
-        width: auto;
+        width: 100%;
     }
 }
 
