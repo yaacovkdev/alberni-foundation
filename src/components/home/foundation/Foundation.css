@@ -9,12 +9,12 @@
 
     @media (min-width: 768px) {
         flex-direction: row;
-
-        padding: 104px 181px 99px 181px;
+        padding: 95px 181px 99px 181px;
     }
 }
 
 .foundation-title {
+    margin-bottom: 12px;
     width: 100%;
 }
 
@@ -64,11 +64,6 @@
     font-family: var(--font-sans-didact);
 }
 
-.announcements-bar-content__description {
-    height: 37px;
-    line-height: 1.3rem;
-}
-
 /* Need to reinstate font family because parent selector set all children to be of sans font */
 .announcements-bar-content__title {
     font-family: var(--font-noto-serif);
@@ -76,7 +71,7 @@
 }
 
 .announcements-bar-content__time {
-    margin-top: 23px;
+    margin-top: 13px;
 }
 
 .foundation__more-btn {

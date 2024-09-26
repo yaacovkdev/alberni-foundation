@@ -7,19 +7,19 @@ export default function GivebackRibbon() {
             <div className="giveback-ribbon__blocks">
                 <div className="dollarsign-block">
                     <div className="dollarsign-block__content">
-                        <h2 className="dollarsign-block__header header-font-size">$27K</h2>
+                        <h2 className="dollarsign-block__header header-font-size">$27k</h2>
                         <p className="dollarsign-block__text normal-sans-font-size sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div className="dollarsign-block dollarsign-block--middle">
                     <div className="dollarsign-block__content">
-                        <h2 className="dollarsign-block__header header-font-size">$27K</h2>
+                        <h2 className="dollarsign-block__header header-font-size">$27k</h2>
                         <p className="dollarsign-block__text normal-sans-font-size sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div className="dollarsign-block">
                     <div className="dollarsign-block__content">
-                        <h2 className="dollarsign-block__header header-font-size">$27K</h2>
+                        <h2 className="dollarsign-block__header header-font-size">$27k</h2>
                         <p className="dollarsign-block__text normal-sans-font-size sans-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
 
     @media (min-width: 768px) {
         min-height: 384px;
-        padding: 100px 100px 30px 100px;
+        padding: 100px 100px 29px 100px;
 
     }
 
@@ -29,6 +29,7 @@
 
 .dollarsign-block__text {
     letter-spacing: 2px;
+    line-height: 2rem;
 }
 
 .dollarsign-block {
@@ -38,8 +39,8 @@
 .dollarsign-block--middle {
     @media (min-width: 768px) {
         padding: 0 calc((100% - 675px) / 4);
-        border-left: 1px solid black;
-        border-right: 1px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
     }
 }
 
