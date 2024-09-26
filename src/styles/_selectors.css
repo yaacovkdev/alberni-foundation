@@ -12,6 +12,8 @@
 
     @media (min-width: 768px) {
         font-size: var(--tablet-title-font-size);
+
+        /*line-height: calc(1em + 40px);*/
     }
 }
 
@@ -20,7 +22,7 @@
     font-weight: 500;
     letter-spacing: -1px;
 
-    margin-bottom: 19px;
+    margin-bottom: 1rem;
 
     @media (min-width: 768px) {
         font-size: var(--tablet-header-font-size);
@@ -71,6 +73,9 @@
     font-size: var(--small-font-size);
     @media (min-width: 768px) {
         font-size: var(--tablet-small-sans-font-size);
+
+        line-height: 1.32rem;
+
     }
 }
 
