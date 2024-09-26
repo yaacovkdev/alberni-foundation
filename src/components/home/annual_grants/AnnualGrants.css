@@ -1,7 +1,7 @@
 .annual-grants {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     @media (min-width: 768px) {
@@ -15,21 +15,22 @@
 
     /* Make sure the image does not appear to be blurry in wide screens */
     max-width: calc(580px * 1.25);
-    text-align: center;
 
     @media (min-width: 768px) {
-        width: 50%;
+        width: calc(50% - 7px);
         height: fit-content;
     }
 }
 
 .annual-grants__text {
+    margin-top: 82px;
+    margin-bottom: 89px;
     padding: 2rem;
 
     @media (min-width: 768px) {
-        width: 50%;
+        width: calc(50% + 7px);
 
-        padding: 2rem 4rem;
+        padding: 0 min(124px, 9%);
     }
 }
 
@@ -38,6 +39,9 @@
 }
 
 .annual-grants__link {
+    display: inline;
+
     background-color: var(--light-gray);
-    padding: 0.5rem;
+
+    padding: 10px 12px;
 }

@@ -10,34 +10,45 @@
     @media (min-width: 768px) {
         flex-direction: row;
 
-        padding: 104px 173px 99px 173px;
+        padding: 104px 181px 99px 181px;
     }
 }
 
 .foundation__text {
     @media (min-width: 768px) {
+        width: auto;
+    }
+
+    @media (min-width: 1280px) {
         width: 555px;
     }
 }
 
 .foundation__description {
     @media (min-width: 768px) {
-        width: 455px;
+        width: auto;
+    }
+
+    @media (min-width: 1280px) {
+        width: 450px;
     }
 }
 
 .foundation__bar {
     @media (min-width: 768px) {
-        width: 455px;
+        width: auto;
     }
 
     @media (min-width: 1280px) {
-        width: 360px;
+        width: 326px;
     }
 }
 
 .foundation__header {
     margin-bottom: 46px;
+
+    /* This fits the Latest Announcement Title inside the box */
+    letter-spacing: -1px;
 }
 
 .announcements-bar-content {
