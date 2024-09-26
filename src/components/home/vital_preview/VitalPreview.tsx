@@ -9,7 +9,7 @@ export default function VitalPreview() {
                 Alberni Valley Community Foundation is proud to publish its
                 2023 Vital Signs report.
             </p>
-            <Link className="vital-preview__link" href="/vital">Read Vital Signs 2023</Link>
+            <Link className="vital-preview__link normal-font-size" href="/vital">Read Vital Signs 2023</Link>
         </div>
     );
 }

@@ -4,8 +4,8 @@
     padding: 2rem;
 
     @media (min-width: 768px) {
-        min-height: 385px;
-        padding: 99px 119px 32px 119px;
+        min-height: 384px;
+        padding: 100px 100px 30px 100px;
 
     }
 
@@ -17,6 +17,7 @@
     align-items: center;
     gap: 2rem;
 
+    padding: 0 81px;
     margin-bottom: 49px;
 
     @media (min-width: 768px) {
@@ -54,9 +55,13 @@
 .giveback-ribbon__footer {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
+
+    @media (min-width: 768px) {
+        justify-content: flex-end;
+    }
 }
 
 .giveback-ribbon__support-btn {

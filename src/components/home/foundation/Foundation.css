@@ -14,37 +14,32 @@
     }
 }
 
-.foundation__text {
-    @media (min-width: 768px) {
+.foundation-title {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .foundation-description, .foundation__bar, .foundation__text{
         width: auto;
     }
+}
 
-    @media (min-width: 1280px) {
+/* Fixes NextJS incorrect optimization of css classes on build */
+@media (min-width: 1280px) {
+    .foundation-description {
+        width: 450px;
+    }
+
+    .foundation__bar {
+        width: 326px;
+    }
+
+    .foundation__text {
         width: 555px;
     }
 }
 
-.foundation__description {
-    @media (min-width: 768px) {
-        width: auto;
-    }
-
-    @media (min-width: 1280px) {
-        width: 450px;
-    }
-}
-
-.foundation__bar {
-    @media (min-width: 768px) {
-        width: auto;
-    }
-
-    @media (min-width: 1280px) {
-        width: 326px;
-    }
-}
-
-.foundation__header {
+.foundation-header {
     margin-bottom: 46px;
 
     /* This fits the Latest Announcement Title inside the box */
