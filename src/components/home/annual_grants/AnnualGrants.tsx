@@ -21,7 +21,7 @@ export default function AnnualGrants() {
                     further information regarding their
                     application.
                 </p>
-                <Link className="annual-grants__link" href="/grants" >View Available Grants</Link>
+                <Link className="annual-grants__link normal-font-size" href="/grants" >View Available Grants</Link>
             </div>
         </div>
     );
