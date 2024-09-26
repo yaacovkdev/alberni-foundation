@@ -1,6 +1,15 @@
-.header-logo {
+.header-link {
+    margin-bottom: 2rem;
+
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+        margin-right: 2rem;
+    }
+}
+
+.header-link__logo {
     background-color: var(--gray);
     
-    width: 8rem;
-    height: 3rem;
+    width: 176px;
+    height: 60px;
 }

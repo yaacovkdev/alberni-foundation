@@ -1,49 +1,72 @@
 .foundation {
-    padding: 2rem;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    flex-wrap: wrap;
     gap: 2rem;
 
-    @media (min-width: 768px) {
-        padding: 4rem 8rem;
+    padding: 2rem;
 
+    @media (min-width: 768px) {
         flex-direction: row;
+
+        padding: 104px 181px 99px 181px;
     }
 }
 
+.foundation-title {
+    width: 100%;
+}
 
-.foundation__text {
-    @media (min-width: 768px) {
-        width: 55%;
+@media (min-width: 768px) {
+    .foundation-description, .foundation__bar, .foundation__text{
+        width: auto;
     }
 }
 
-.foundation__bar {
-    @media (min-width: 768px) {
-        width: 35%;
-        min-width: 271px;
+/* Fixes NextJS incorrect optimization of css classes on build */
+@media (min-width: 1280px) {
+    .foundation-description {
+        width: 450px;
+    }
+
+    .foundation__bar {
+        width: 326px;
+    }
+
+    .foundation__text {
+        width: 555px;
     }
 }
 
+.foundation-header {
+    margin-bottom: 46px;
 
-.foundation__header {
-    margin: 0;
+    /* This fits the Latest Announcement Title inside the box */
+    letter-spacing: -1px;
 }
 
 .announcements-bar-content {
-    padding: 1rem 0;
+    padding: 17px 0;
+}
+
+.announcements-bar-content--first {
+    border-bottom: 1px solid black;
+
+    padding-top: 0;
+}
+
+.announcements-bar-content--last {
+    padding-bottom: 29px;
 }
 
 .announcements-bar-content * {
     font-family: var(--font-sans-didact);
 }
 
-
-.announcements-bar-content--first {
-    border-bottom: 2px solid black;
+.announcements-bar-content__description {
+    height: 37px;
+    line-height: 1.3rem;
 }
 
 /* Need to reinstate font family because parent selector set all children to be of sans font */
@@ -53,7 +76,7 @@
 }
 
 .announcements-bar-content__time {
-    margin-top: 1rem;
+    margin-top: 23px;
 }
 
 .foundation__more-btn {
